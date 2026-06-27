@@ -27,7 +27,9 @@ The implementation was completed as part of an internship project focusing on em
 
 ## 🏗 Architecture
 
-> *(Architecture diagram will be added here.)*
+<p align="center">
+  <img src="./diagrams/architecture.png" alt="Mail Security Gateway Architecture" width="100%">
+</p>
 
 ---
 
