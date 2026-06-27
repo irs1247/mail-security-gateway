@@ -4,6 +4,19 @@ A layered Mail Security Gateway built using **Postfix**, **Rspamd**, **ClamAV**,
 
 ---
 
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Lab Environment](#-lab-environment)
+- [Technologies Used](#-technologies-used)
+- [Repository Structure](#-repository-structure)
+- [Validation Results](#-validation-results)
+- [Documentation](#-documentation)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+---
 ## 📖 Project Overview
 
 This project demonstrates the design and implementation of a secure Mail Security Gateway using open-source technologies. The gateway receives SMTP traffic, inspects every incoming email, detects spam and malware, applies security policies, and forwards only legitimate messages to the Internal Mail Server.
