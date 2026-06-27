@@ -146,8 +146,9 @@ Fail2Ban monitored authentication activity and protected the Mail Security Gatew
 
 ## 📄 Documentation
 
-The complete internship report will be available in the **docs/** folder.
+The complete project documentation is available below.
 
+- 📘 [Mail Security Gateway Report](docs/Mail_Security_Gateway_Report.pdf)
 ---
 
 ## 🚀 Future Improvements
