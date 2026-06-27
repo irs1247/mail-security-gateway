@@ -110,6 +110,39 @@ The following validation tests were performed to verify the functionality, relia
 ## 📸 Validation Gallery
 
 The following screenshots were captured during the validation phase of the project.
+### 📬 Legitimate Email Delivery
+
+The Mail Security Gateway successfully relayed a legitimate email to the Internal Mail Server.
+
+<p align="center">
+  <img src="./screenshots/mail-delivered-log.jpg" width="100%">
+</p>
+
+### 🚫 Malware Detection (EICAR)
+
+The Mail Security Gateway successfully detected the EICAR test file using ClamAV and rejected the malicious email before delivery.
+
+<p align="center">
+  <img src="./screenshots/malware-blocked.jpg" width="100%">
+</p>
+
+### 🚦 SMTP Rate Limiting
+
+The Mail Security Gateway detected excessive SMTP connection attempts and enforced Postfix connection rate limits to protect the Internal Mail Server from abuse.
+
+<p align="center">
+  <img src="./screenshots/smtp-rate-limit.jpg" width="100%">
+</p>
+
+### 🛡️ Fail2Ban Protection
+
+Fail2Ban monitored authentication activity and protected the Mail Security Gateway by detecting repeated failed attempts and automatically enforcing security policies.
+
+<p align="center">
+  <img src="./screenshots/fail2ban-status.jpg" width="100%">
+</p>
+
+---
 
 ## 📄 Documentation
 
