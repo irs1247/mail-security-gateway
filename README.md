@@ -82,28 +82,34 @@ The implementation was completed as part of an internship project focusing on em
 
 ```text
 mail-security-gateway/
-├── configs/
-├── diagrams/
-├── docs/
-├── screenshots/
-├── LICENSE
-└── README.md
+├── configs/         # Postfix, Rspamd, ClamAV, Fail2Ban configurations
+├── diagrams/        # Architecture and network diagrams
+├── docs/            # Project report and documentation
+├── screenshots/     # Validation screenshots
+├── LICENSE          # MIT License
+└── README.md        # Project overview
 ```
 
 ---
 
-## 🧪 Validation Performed
-
-- Legitimate Email Delivery
-- Malware Detection using EICAR
-- SMTP Relay Validation
-- SMTP Rate Limiting
-- Gateway Log Verification
-- ClamAV Integration
-- Rspamd Filtering
-- Fail2Ban Protection
+## 🧪 Validation Results
+The following validation tests were performed to verify the functionality, reliability, and security of the Mail Security Gateway.
+| Validation Test | Result |
+|-----------------|--------|
+| Legitimate Email Delivery | ✅ Passed |
+| Malware Detection (EICAR) | ✅ Passed |
+| SMTP Relay Verification | ✅ Passed |
+| SMTP Rate Limiting | ✅ Passed |
+| ClamAV Integration | ✅ Passed |
+| Rspamd Filtering | ✅ Passed |
+| Fail2Ban Protection | ✅ Passed |
+| UFW Firewall | ✅ Passed |
 
 ---
+
+## 📸 Validation Gallery
+
+The following screenshots were captured during the validation phase of the project.
 
 ## 📄 Documentation
 
