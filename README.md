@@ -1,5 +1,13 @@
 # 🛡 Mail Security Gateway
 
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu&logoColor=white)
+![Postfix](https://img.shields.io/badge/Postfix-Mail%20Server-blue)
+![Rspamd](https://img.shields.io/badge/Rspamd-Spam%20Filter-red)
+![ClamAV](https://img.shields.io/badge/ClamAV-Antivirus-green)
+![Fail2Ban](https://img.shields.io/badge/Fail2Ban-Intrusion%20Prevention-blueviolet)
+![UFW](https://img.shields.io/badge/UFW-Firewall-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 A layered Mail Security Gateway built using **Postfix**, **Rspamd**, **ClamAV**, **Fail2Ban**, and **UFW** on **Ubuntu Server**.
 
 ---
