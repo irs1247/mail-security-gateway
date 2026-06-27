@@ -161,16 +161,18 @@ The complete internship report will be available in the **docs/** folder.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ifat Rahman**
 
-BSc in Information Technology (Cyber Security)
+SOC Analyst | Blue Team | Email Security
 
-University of Information Technology & Sciences (UITS)
+- 🎓 BSc in IT (Cyber Security)
+- 🛡️ Interested in SOC Operations, Threat Detection, and Blue Teaming
+- 💻 Technologies: Linux, Wazuh, SIEM, Postfix, ClamAV, Rspamd, Fail2Ban
+- 🌱 Currently expanding knowledge in Security Operations and Threat Hunting.
 
-GitHub: https://github.com/irs1247
-
+If you found this project useful, feel free to ⭐ the repository.
 ---
 
 ## 📜 License
